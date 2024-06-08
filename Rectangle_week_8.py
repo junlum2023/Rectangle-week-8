@@ -7,9 +7,8 @@ class Rectanngle:
     
     def getPerimeter(self):
         perimeter = self.height * 2 + self.width * 2
+        return perimeter 
     
-        
-
     def getArea(self):
         area = self.height * self.width
         return area 
