@@ -1,4 +1,4 @@
-from dataclasses import data dataclass
+from dataclasses import dataclass
 
 @dataclass
 class Rectanngle:
@@ -33,7 +33,7 @@ class Rectanngle:
             height = int(input("Height: "))
             width = int(input("Width: "))
         
-            rectangle = rectangle(height, width)
+            rectangle = Rectangle(height, width)
             print("Perimeter:", rectangle.getPerimeter())
             print("Area:", rectangle.getArea())
         
